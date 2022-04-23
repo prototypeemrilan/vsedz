@@ -1,4 +1,4 @@
-const main = prompt('color?')
+const main = prompt('цвет?')
 
 switch (main){
   case 'red':
