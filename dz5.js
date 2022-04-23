@@ -1,21 +1,23 @@
-const circles= document.querySelectorAll(".circle")
-console.log(circles)
-let activelight= 0
+const main = prompt('color?')
 
-setInterval(() => {
-    changelight();
-}, 1500);
-
-function changelight() {
-    circles[activelight].className = 'circle';
-    activelight++;
-
- if(activelight > 2) {
-     activelight=0
- }
-
-    const cuurentlight = circles[activelight];
-    cuurentlight.classList.add(cuurentlight.getAttribute("color"))
-
+switch (main){
+  case 'red':
+    document.getElementsByClassName('red_comm')[0].style.background = 'red'
+    document.getElementsByClassName('red_comm')[0].innerText = 'Остановись'
+    alert('Остановись!!!')
+    break;
+  case 'green':
+    document.getElementsByClassName('green_comm')[0].style.background = 'green'
+    document.getElementsByClassName('green_comm')[0].innerText = 'Беги'
+    alert('Беги!!!')
+    break;
+  case 'yellow':
+    document.getElementsByClassName('yellow_comm')[0].style.background = 'yellow'
+    document.getElementsByClassName('yellow_comm')[0].innerText = 'Пока подожди'
+    alert('Пока подожди')
+    break;
+  default:
+    alert('undefined')
+    break;
 }
 
