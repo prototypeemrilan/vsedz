@@ -15,7 +15,7 @@ body {
 
 #btn {
     position: relative;
-    left: 2px;
+    left: -5px;
     width: 100px;
     height: 47px;
     border-radius: 0 30px 30px 0;
