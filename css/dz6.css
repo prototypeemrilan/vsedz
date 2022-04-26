@@ -1,0 +1,50 @@
+body {
+    background-color: greenyellow;
+}
+.input {
+    position: absolute;
+}
+
+#name {
+    width: 300px;
+    height: 45px;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    padding-left: 35px;
+}
+
+#btn {
+    position: relative;
+    left: -2px;
+    width: 100px;
+    height: 47px;
+    border-radius: 0 30px 30px 0;
+    border: none;
+    background-color: #ffa500;
+}
+
+.list {
+    position: relative;
+    padding-top: 100px;
+}
+
+.bigclock {
+    position: relative;
+    top: 42px;
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+    margin: 0 auto;
+}
+.list {
+    margin-top: 45px;
+    color:gold;
+}
+
+.list p {
+    font-size: 36px;
+
+}
