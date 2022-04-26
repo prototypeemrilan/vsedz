@@ -9,7 +9,7 @@ function render() {
     for (let i=0; i < list.length; i++) {
         const divlist = document.createElement('div');
         divlist.setAttribute("class", "block");
-        const p= document.createElement("p");
+        const p = document.createElement("p");
         p.innerHTML = list[i].text;
         divlist.append(p);
         MainDiv.append(divlist);
@@ -28,6 +28,8 @@ darouv.onclick= function () {
     list.push(obj)
     render()
 }
+
+
 
 const comm= [0];
 const comm1= [1];
@@ -67,3 +69,4 @@ const newObject = {
     },
 }
 console.log(newObject)
+
