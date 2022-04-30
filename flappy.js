@@ -77,10 +77,13 @@ const draw=()=>{
 
 }
 
-let btn = document.getElementsByClassName('knopka')
-    document.addEventListener('click',draw)
-pipeBottom.onload = function () {
-    document.getElementsByClassName('knopka').onclick = function () {
-        this.disabled = "disabled";
-    }
-}
+pipeBottom.onload = draw
+
+//
+// let btn = document.getElementsByClassName('knopka')
+//     document.addEventListener('click',draw)
+// pipeBottom.onload = function () {
+//     document.getElementsByClassName('knopka').onclick = function () {
+//         this.disabled = "disabled";
+//     }
+// }

@@ -4,15 +4,15 @@
     align-content: center;
 
 }
-.btn{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
+/*.btn{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*}*/
 
-button {
-     width: 100px;
-    height: 100px;
-    color: yellowgreen;
-    border-radius: 50%;
-}
+/*button {*/
+/*     width: 100px;*/
+/*    height: 100px;*/
+/*    color: yellowgreen;*/
+/*    border-radius: 50%;*/
+/*}*/
